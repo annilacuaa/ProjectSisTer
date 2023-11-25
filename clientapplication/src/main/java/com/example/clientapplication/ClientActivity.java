@@ -42,7 +42,7 @@ public class ClientActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_client);
         setTitle("Client");
-        clientTextColor = ContextCompat.getColor(this, R.color.green);
+        clientTextColor = ContextCompat.getColor(this, R.color.blue);
         handler = new Handler();
         msgList = findViewById(R.id.msgList);
         edMessage = findViewById(R.id.edMessage);
